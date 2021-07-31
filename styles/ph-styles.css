@@ -1,0 +1,26 @@
+/*This is a comment in a CSS file. Also note that if you wish to select a class, you should precede the class name with a period. */
+.two_columns{
+    display: grid;
+    grid-template-columns: 5em 10em;
+    row-gap: 1em;
+    max-width: 15em;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* We want the button centered.*/
+section + input{
+    color: steelblue;
+    width: 10em;
+}
+
+/* We want the form centered.*/
+form{
+    /* You can use text-align to center elements that are inline (not block level) elements.*/
+    text-align: center;
+}
+
+.error_form{
+    color:red
+}

@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+} 
+
+.container{
+    position: absolute;
+    top: -200px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .box:hover{
+    transform: translateY(-15%);
+}
+
+.container .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container2{
+    position:absolute;
+    top: -100px;
+    width: 1600px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container2 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container2 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container2 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container2 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container3{
+    position:absolute;
+    width: 1400px;
+    top: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container3 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container3 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container3 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container3 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container4{
+    position:absolute;
+    width: 1600px;
+    top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container4 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container4 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container4 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container4 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container5{
+    position:absolute;
+    width: 1400px;
+    top: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container5 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container5 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container5 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container5 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container6{
+    position:absolute;
+    width: 1600px;
+    top: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container6 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container6 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container6 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container6 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container7{
+    position:absolute;
+    width: 1400px;
+    top: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container7 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container7 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container7 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container7 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.container8{
+    position:absolute;
+    width: 1600px;
+    top: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container8 .box{
+    position: relative;
+    width: 200px;
+    height: 375px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container8 .box:hover{
+    transform: translateY(-15%);
+}
+
+.container8 .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container8 .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.login-wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    position:relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    color: #ffff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+
+.form::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.08);
+    border-radius:10px;
+    pointer-events: none;
+}
+
+.form img{
+    position:absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    width: 100px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 50%;
+}
+.form h2{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ff652f;
+}
+
+.form .input-group{
+    position:relative
+}
+
+.form .input-group input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background-color: transparent;
+    color:inherit;
+}
+
+.form .input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+}
+
+/* .form .input-group .input:focus + label,
+.form .input-group .input:valid + label{
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+} */
+
+.submit-btn{
+    display: block;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background: #ff652f;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#forgot-pw{
+    display: none;
+}

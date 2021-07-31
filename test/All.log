@@ -1,0 +1,573 @@
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 59, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 59, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_data sent back is: True
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 62, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+INFO:root:The r_data sent back is: True
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 62, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+INFO:root:The r_data sent back is: True
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 62, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 47, in reimburse_request
+    logging.info("The r_id is: " + r_id)
+TypeError: can only concatenate str (not "int") to str
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: True
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 62, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: True
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 63, in get_reimbursements
+    for r in r_data:
+TypeError: 'bool' object is not iterable
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 65, in get_reimbursements
+    logging.info("r_dict["+r[1]+"] = username: "+r[0]+" and r_id: "+r[1]+ " and amount: "+r[2]+ " and reason: "+r[3]+ " and status: ")
+TypeError: can only concatenate str (not "int") to str
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 65, in get_reimbursements
+    logging.info("r_dict["+r[1]+"] = username: "+r[0]+" and r_id: "+r[1]+ " and amount: "+r[2]+ " and reason: "+r[3]+ " and status: ")
+TypeError: can only concatenate str (not "int") to str
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 65, in get_reimbursements
+    logging.info("r_dict["+r[1]+"] = username: "+r[0]+" and r_id: "+r[1]+ " and amount: "+r[2]+ " and reason: "+r[3]+ " and status: ")
+TypeError: can only concatenate str (not "int") to str
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve"}}
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve"}}
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve"}}
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve"}}
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 63, in get_reimbursements
+    r_dict[r[1]] = Reimbursement(r[0], r[1], float(r[2]), r[3], r[4], r[5])
+IndexError: tuple index out of range
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\employee_service.py", line 63, in get_reimbursements
+    r_dict[r[1]] = Reimbursement(r[0], r[1], float(r[2]), r[3], r[4], r[5])
+IndexError: tuple index out of range
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\manager_service.py", line 18, in get_reimbursements
+    r_dict[r[1]] = Reimbursement(r[0], r[1], float(r[2]), r[3], r[4], r[5])
+IndexError: tuple index out of range
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None), ('catman', 1651, 3432.0, 'fjkdlsa', None), ('catman', 9326, 3432.0, 'fjkdlsa', None), ('catman', 4180, 3432.0, 'fjkdlsa', None), ('catman', 1932, 3432.0, 'fjkdlsa', None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve'), ('catman', 2, 17890.0, 'something', 'approve'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve')]
+ERROR:root:Unexpected server error
+Traceback (most recent call last):
+  File "C:\Users\haloe\PycharmProjects\Reimbursements\src\service\manager_service.py", line 47, in get_statistics
+    r_dict[r[1]] = Reimbursement(r[0], r[1], float(r[2]), r[3], r[4], r[5])
+IndexError: tuple index out of range
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:average amount: 4374.555555555556, total amount: 39371.0, total reimbursements: 9
+INFO:root:greatest spender: catman, greatest spender amount: 39371.0
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:average amount: 4374.555555555556, total amount: 39371.0, total reimbursements: 9
+INFO:root:greatest spender: catman, greatest spender amount: 39371.0
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:This is what get user returned: ('catman', 'catman', False, 'batman')
+INFO:root:employee is username: catman, password: catman, is_manager: False, manager_username: batman
+INFO:root:employee is not a manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:employee is manager
+INFO:root:This is what get user returned: ('batman', 'batman', True, None)
+INFO:root:employee is username: batman, password: batman, is_manager: True, manager_username: None
+INFO:root:This password does not match
+INFO:root:This is what get user returned: {}
+INFO:root:This user did not exist
+INFO:root:The r_id is: 2202
+INFO:root:Request sent successfully
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:This is what is returned{"2202": {"_username": "catman", "_r_id": 2202, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1651": {"_username": "catman", "_r_id": 1651, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "9326": {"_username": "catman", "_r_id": 9326, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "4180": {"_username": "catman", "_r_id": 4180, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "1932": {"_username": "catman", "_r_id": 1932, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": null, "_manager_response": null}, "8118": {"_username": "catman", "_r_id": 8118, "_amount": 789.0, "_reason": "jfdsakhfkjvdshagihvdaskjnfk;das", "_status": null, "_manager_response": null}, "1": {"_username": "catman", "_r_id": 1, "_amount": 100.0, "_reason": "jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", "_status": "approve", "_manager_response": "No response"}, "2": {"_username": "catman", "_r_id": 2, "_amount": 17890.0, "_reason": "something", "_status": "approve", "_manager_response": "No response"}, "1034": {"_username": "catman", "_r_id": 1034, "_amount": 3432.0, "_reason": "fjkdlsa", "_status": "approve", "_manager_response": "No response"}}
+INFO:root:The r_data sent back is: [('catman', 2202, 3432.0, 'fjkdlsa', None, None), ('catman', 1651, 3432.0, 'fjkdlsa', None, None), ('catman', 9326, 3432.0, 'fjkdlsa', None, None), ('catman', 4180, 3432.0, 'fjkdlsa', None, None), ('catman', 1932, 3432.0, 'fjkdlsa', None, None), ('catman', 8118, 789.0, 'jfdsakhfkjvdshagihvdaskjnfk;das', None, None), ('catman', 1, 100.0, 'jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu', 'approve', 'No response'), ('catman', 2, 17890.0, 'something', 'approve', 'No response'), ('catman', 1034, 3432.0, 'fjkdlsa', 'approve', 'No response')]
+INFO:root:r_dict[2202] = username: catman and r_id: 2202 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1651] = username: catman and r_id: 1651 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[9326] = username: catman and r_id: 9326 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[4180] = username: catman and r_id: 4180 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[1932] = username: catman and r_id: 1932 and amount: 3432.0 and reason: fjkdlsa and status: None and manager response: None
+INFO:root:r_dict[8118] = username: catman and r_id: 8118 and amount: 789.0 and reason: jfdsakhfkjvdshagihvdaskjnfk;das and status: None and manager response: None
+INFO:root:r_dict[1] = username: catman and r_id: 1 and amount: 100.0 and reason: jdsfkhdashfuihasfpjkdjgjdskluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu and status: approve and manager response: No response
+INFO:root:r_dict[2] = username: catman and r_id: 2 and amount: 17890.0 and reason: something and status: approve and manager response: No response
+INFO:root:r_dict[1034] = username: catman and r_id: 1034 and amount: 3432.0 and reason: fjkdlsa and status: approve and manager response: No response
+INFO:root:average amount: 4374.555555555556, total amount: 39371.0, total reimbursements: 9
+INFO:root:greatest spender: catman, greatest spender amount: 39371.0

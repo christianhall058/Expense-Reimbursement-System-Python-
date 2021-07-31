@@ -1,0 +1,35 @@
+<testsuite name="swag_labs_login.Swag Labs Login" tests="2" errors="0" failures="0" skipped="0" time="0.003999" timestamp="2021-06-30T09:34:34.913302" hostname="DESKTOP-QHE6Q58"><testcase classname="swag_labs_login.Swag Labs Login" name="A user is on the home page of Swag Labs and would like to login with correct credentials." status="passed" time="0.001999"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: A user is on the home page of Swag Labs and would like to login with correct credentials.
+    Given a user is on the home page of Swag Labs ... passed in 0.000s
+    And a user enters the correct username ... passed in 0.001s
+    And a user enters the correct password ... passed in 0.000s
+    When the user pushes the submit button ... passed in 0.000s
+    Then the user is redirected to the dashboard page ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+user is home page
+
+]]>
+</system-out></testcase><testcase classname="swag_labs_login.Swag Labs Login" name="A user is on the home page of Swag Labs and would like to login with correct credentials." status="passed" time="0.002"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: A user is on the home page of Swag Labs and would like to login with correct credentials.
+    Given a user is on the home page of Swag Labs ... passed in 0.001s
+    And a user enters the correct username ... passed in 0.000s
+    And a user enters the correct password ... passed in 0.000s
+    When the user hits the enter button ... passed in 0.001s
+    Then the user is redirected to the dashboard page anyway ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+user is home page
+
+]]>
+</system-out></testcase></testsuite>

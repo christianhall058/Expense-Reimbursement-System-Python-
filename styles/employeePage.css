@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#333, #000);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card{
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px;
+    grid-template-areas: "text";
+    margin: 20px;
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: #ff652f;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.9);
+    text-align: center;
+
+}
+
+.card-text{
+    grid-area: text;
+    margin:25px;
+}
+
+.card-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
